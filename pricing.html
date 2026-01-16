@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="UseShield Pricing - Choose the plan that's right for you. Free and Pro options available.">
+        content="UseShield Pricing - Find the perfect plan for safer online shopping. From Free to Agency plans.">
     <title>Pricing - UseShield</title>
 
     <link rel="icon" type="image/svg+xml"
@@ -14,6 +14,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .pricing-grid {
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            max-width: 1200px;
+        }
+    </style>
 </head>
 
 <body>
@@ -46,29 +52,29 @@
     <section class="pricing" style="padding-top: 120px;">
         <div class="container">
             <div class="section-header">
-                <h1>Simple, Transparent Pricing</h1>
-                <p>Choose the plan that works best for you. Start free, upgrade anytime.</p>
+                <h1>Fair Pricing for Everyone</h1>
+                <p>Protect yourself from online traps. Choose the plan that fits your shopping habits.</p>
             </div>
 
             <div class="pricing-grid">
                 <!-- Free Plan -->
                 <div class="pricing-card">
                     <h3>Free</h3>
-                    <div class="pricing-price">$0<span>/month</span></div>
+                    <div class="pricing-price">$0<span>/forever</span></div>
                     <ul class="pricing-features">
                         <li>
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2">
                                 <polyline points="20 6 9 17 4 12" />
                             </svg>
-                            5 analyses per day
+                            3 scans per week
                         </li>
                         <li>
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2">
                                 <polyline points="20 6 9 17 4 12" />
                             </svg>
-                            Quick mode analysis
+                            Flash mode analysis
                         </li>
                         <li>
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -77,43 +83,67 @@
                             </svg>
                             Basic dark pattern detection
                         </li>
-                        <li>
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <polyline points="20 6 9 17 4 12" />
-                            </svg>
-                            7-day analysis history
-                        </li>
                     </ul>
-                    <a href="https://chrome.google.com/webstore" class="btn btn-outline" style="width: 100%;">Get
-                        Started</a>
+                    <a href="https://chrome.google.com/webstore" class="btn btn-outline" style="width: 100%;">Install
+                        Now</a>
                 </div>
 
-                <!-- Pro Plan -->
-                <div class="pricing-card featured">
-                    <h3>Pro</h3>
-                    <div class="pricing-price">$4.99<span>/month</span></div>
+                <!-- Starter Plan -->
+                <div class="pricing-card">
+                    <h3>Starter</h3>
+                    <div class="pricing-price">$9.99<span>/month</span></div>
                     <ul class="pricing-features">
                         <li>
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2">
                                 <polyline points="20 6 9 17 4 12" />
                             </svg>
-                            Unlimited analyses
+                            15 scans per month
                         </li>
                         <li>
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2">
                                 <polyline points="20 6 9 17 4 12" />
                             </svg>
-                            Quick + Deep mode
+                            Flash + Standard modes
                         </li>
                         <li>
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2">
                                 <polyline points="20 6 9 17 4 12" />
                             </svg>
-                            Advanced AI detection
+                            Priority analysis queue
+                        </li>
+                    </ul>
+                    <a href="https://chrome.google.com/webstore" class="btn btn-primary"
+                        style="width: 100%; opacity: 0.9;">Choose Starter</a>
+                </div>
+
+                <!-- Pro Plan (Popular) -->
+                <div class="pricing-card featured">
+                    <h3>Pro</h3>
+                    <div class="pricing-price">$29<span>/month</span></div>
+                    <ul class="pricing-features">
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="20 6 9 17 4 12" />
+                            </svg>
+                            80 scans per month
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="20 6 9 17 4 12" />
+                            </svg>
+                            All analysis modes
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="20 6 9 17 4 12" />
+                            </svg>
+                            Deep Dive analysis
                         </li>
                         <li>
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -122,68 +152,71 @@
                             </svg>
                             Unlimited history
                         </li>
-                        <li>
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <polyline points="20 6 9 17 4 12" />
-                            </svg>
-                            Export reports
-                        </li>
-                        <li>
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <polyline points="20 6 9 17 4 12" />
-                            </svg>
-                            Priority support
-                        </li>
                     </ul>
-                    <a href="https://chrome.google.com/webstore" class="btn btn-primary" style="width: 100%;">Upgrade to
+                    <a href="https://chrome.google.com/webstore" class="btn btn-primary" style="width: 100%;">Choose
                         Pro</a>
                 </div>
 
-                <!-- Enterprise Plan -->
+                <!-- Pro Plus -->
                 <div class="pricing-card">
-                    <h3>Enterprise</h3>
-                    <div class="pricing-price">Custom</div>
+                    <h3>Pro Plus</h3>
+                    <div class="pricing-price">$59<span>/month</span></div>
                     <ul class="pricing-features">
                         <li>
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2">
                                 <polyline points="20 6 9 17 4 12" />
                             </svg>
-                            Everything in Pro
+                            200 scans per month
                         </li>
                         <li>
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2">
                                 <polyline points="20 6 9 17 4 12" />
                             </svg>
-                            Team management
+                            Highest priority queue
                         </li>
                         <li>
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2">
                                 <polyline points="20 6 9 17 4 12" />
                             </svg>
-                            API access
-                        </li>
-                        <li>
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <polyline points="20 6 9 17 4 12" />
-                            </svg>
-                            Custom integrations
-                        </li>
-                        <li>
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <polyline points="20 6 9 17 4 12" />
-                            </svg>
-                            Dedicated support
+                            Priority Support
                         </li>
                     </ul>
-                    <a href="mailto:enterprise@useshield.net" class="btn btn-outline" style="width: 100%;">Contact
-                        Sales</a>
+                    <a href="https://chrome.google.com/webstore" class="btn btn-outline" style="width: 100%;">Choose Pro
+                        Plus</a>
+                </div>
+
+                <!-- Agency -->
+                <div class="pricing-card">
+                    <h3>Agency</h3>
+                    <div class="pricing-price">$99<span>/month</span></div>
+                    <ul class="pricing-features">
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="20 6 9 17 4 12" />
+                            </svg>
+                            300 scans per month
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="20 6 9 17 4 12" />
+                            </svg>
+                            Neural Mode (Coming Soon)
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="20 6 9 17 4 12" />
+                            </svg>
+                            Dedicated Support
+                        </li>
+                    </ul>
+                    <a href="https://chrome.google.com/webstore" class="btn btn-outline" style="width: 100%;">Choose
+                        Agency</a>
                 </div>
             </div>
 
@@ -194,27 +227,28 @@
 
             <div style="max-width: 700px; margin: 0 auto;">
                 <div style="margin-bottom: 24px;">
-                    <h4 style="margin-bottom: 8px;">Can I try Pro before subscribing?</h4>
-                    <p style="color: var(--text-secondary);">Yes! Every new user gets a 7-day free trial of Pro
-                        features. No credit card required.</p>
-                </div>
-
-                <div style="margin-bottom: 24px;">
-                    <h4 style="margin-bottom: 8px;">How do I manage my subscription?</h4>
-                    <p style="color: var(--text-secondary);">You can manage your subscription directly from the
-                        extension settings or through your account dashboard.</p>
-                </div>
-
-                <div style="margin-bottom: 24px;">
-                    <h4 style="margin-bottom: 8px;">Is my payment information secure?</h4>
-                    <p style="color: var(--text-secondary);">Absolutely. We use PayPal for secure payment processing. We
-                        never store your payment details.</p>
+                    <h4 style="margin-bottom: 8px;">What is a "scan"?</h4>
+                    <p style="color: var(--text-secondary);">A scan is one complete analysis of a shopping page. Each
+                        time you click "Analyze Page" in the extension, it counts as one scan.</p>
                 </div>
 
                 <div style="margin-bottom: 24px;">
                     <h4 style="margin-bottom: 8px;">Can I cancel anytime?</h4>
-                    <p style="color: var(--text-secondary);">Yes, you can cancel your subscription at any time. You'll
-                        continue to have access until the end of your billing period.</p>
+                    <p style="color: var(--text-secondary);">Yes! You can cancel your subscription at any time from your
+                        account settings. You'll keep access until the end of your billing period.</p>
+                </div>
+
+                <div style="margin-bottom: 24px;">
+                    <h4 style="margin-bottom: 8px;">Do you offer refunds?</h4>
+                    <p style="color: var(--text-secondary);">Due to the digital nature of our service, we generally do
+                        not offer refunds. Please see our <a href="refund-policy.html">Refund Policy</a> for full
+                        details.</p>
+                </div>
+
+                <div style="margin-bottom: 24px;">
+                    <h4 style="margin-bottom: 8px;">Is payment secure?</h4>
+                    <p style="color: var(--text-secondary);">Yes. All payments are processed securely via PayPal. We
+                        never see or store your credit card information.</p>
                 </div>
             </div>
         </div>
@@ -248,6 +282,7 @@
                     <ul class="footer-links">
                         <li><a href="privacy.html">Privacy Policy</a></li>
                         <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="refund-policy.html">Refund Policy</a></li>
                     </ul>
                 </div>
 
